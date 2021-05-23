@@ -1,0 +1,20 @@
+#Author:WenmingJin
+#CreateTime:2021/5/23
+#FileName:ex6_1Exercise
+#Discription:Exercise
+import jieba
+ls=['p','p','1',2,3,4]
+s=set(ls)#利用集合的无重复性
+print(s)
+l={1,1,1,2,3,4,3,2}
+print(l)
+creature='dog','cat','human','tiger'
+print(creature[::-1])
+d={'中国':'北京','美国':'华盛顿','法国':'巴黎'}
+print(d)
+print(d['中国'])
+print(d.keys())
+print(d.values())
+print(d.items())
+str='中国是一个伟大的国家'
+print(jieba.lcut(str))
