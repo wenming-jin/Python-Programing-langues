@@ -1,0 +1,6 @@
+#ExceptionHandling.py
+try:
+    num=eval(input('请输入一个整数：'))
+    print(num**2)
+except NameError:
+    print('程序异常')
